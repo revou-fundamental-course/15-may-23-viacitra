@@ -1,0 +1,48 @@
+header, h2 {
+    color: white;
+    background-color: skyblue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.content {
+    text-align:center;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+.welcome, .desc {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.rumus {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-block: 1rem;
+    text-align: center;
+}
+
+.button {
+    padding: 10px;
+    display: flex;
+    gap: 12px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: skyblue;
+}
