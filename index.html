@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Katik - Kalkulator Matematik</title>
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="title">
+            <h1 class="btitle">Katik</h1>
+            <h3 class="subtitle">Kalkulator Matematik</h3>
+            </div>
+        </header>
+
+        <main>
+            <div class="content-desc">
+            <h2 class="welcome">Welcome to Katik</h2>
+            <p class="desc">Hai Sobat, Selamat datang di Katik</p>
+            <p>Sebuah web apps sederhana yang berfungsi untuk menghitung luas dan keliling bangun datar</p>
+            </div>
+
+            <!-- Hitung Luas Persegi -->
+            <h2 class="content">Luas Persegi</h3>
+            <div class="rumus_luas">
+                <span class="content">Rumus Luas persegi adalah</span> 
+                <p class="rumus" id="rumus_luas">L = S x S</p>
+                <span>Dimana : <br>
+                    L = Luas <br>
+                    S = Sisi <br>
+                </span>
+                
+            </div>
+            <div>
+                <h3 class="content"">Hitung Luas Persegi</h3>
+            <div class="button">
+                <form id="hitung_luas">
+                <input type="number" id="sisi_luas" name="sisi" placeholder="Nilai sisi" onkeyup="hitungLuas()" required>
+                <button type="submit" id="hitung_keliling" class="hitung_luas">Hitung</button>
+                <button id="reset_luas" class="reset_luas">reset</button>
+                </form>
+            </div>
+            <div id="result_luas"></div>
+            </div>
+
+
+            <!-- Hitung Keliling Persegi -->
+            <h2 class="content">Keliling Persegi Panjang</h3>
+                <div>
+                    <span class="content">Rumus Keliling Persegi adalah</span>
+                    <p class="rumus" id="rumus_keliling">K = 4 x s</p>
+                    <span>Dimana : <br>
+                        K = Keliling <br>
+                        s = sisi
+                    </span>
+                </div>
+                <div>
+                    <h3 class="content">Hitung Keliling Persegi</h3>
+                <div class="button">
+                    <form id="hitung_keliling">
+                    <input type="number" id="sisi_keliling" name="sisi" placeholder="Nilai sisi" required>
+                    <button type="submit" id="hitung_keliling" class="hitung_keliling">Hitung</button>
+                    <button id="reset_keliling" class="hitung_keliling">Reset</button>
+                    </form>
+                </div>
+                    <div id="result_keliling"></div>
+                </div>
+        </main>
+
+        <footer>
+            Revou Mini Project - Katik @2023 by Oktavia Yunita Citra
+        </footer>
+        <script src="assets/script.js"></script>
+    </body>
+</html>
